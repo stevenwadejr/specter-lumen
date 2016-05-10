@@ -1,0 +1,15 @@
+{
+  "__specter": "Sample customer record",
+  "id": "@randomDigitNotNull@",
+  "firstName": "@firstName@",
+  "lastName": "@lastName@",
+  "email": "@safeEmail@",
+  "company": "@company@",
+  "notes": "@paragraph@",
+  "address": {
+    "street": "@streetAddress@",
+    "city": "@city@",
+    "state": "@stateAbbr@",
+    "zip": "@postcode@"
+  }
+}
